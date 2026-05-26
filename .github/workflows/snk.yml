@@ -2,6 +2,8 @@ name: Generate Contribution Snake
 
 on:
   push:
+    paths-ignore:
+      - "profile/**"
   workflow_dispatch:
   schedule:
     - cron: "23 3 * * *"
