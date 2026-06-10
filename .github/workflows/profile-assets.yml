@@ -1,0 +1,53 @@
+name: Update Profile Assets
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare build directory
+        run: mkdir -p build
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=yophon&show_icons=true
+          path: build/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: yophon
+          outputs: |
+            build/github-snake.svg
+            build/github-snake-dark.svg?palette=github-dark
+
+      - name: Push assets to output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd build
+          git init -b output
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add .
+          git commit -m "Update profile assets"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/yophon/yophon.git" output
