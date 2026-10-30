@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="237" height="44" viewBox="0 0 237 44" role="img" aria-label="三维工作室 979687.xyz">
+  <style>.sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif } .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace }</style>
+  <rect x="0.5" y="0.5" width="236" height="43" rx="22" fill="#0d1321" stroke="rgba(148,163,184,0.18)"/>
+  <text x="24" y="27" class="mono" font-size="15" font-weight="600" fill="#67e8f9">979687.xyz</text>
+  <text x="124.0" y="27" class="sans" font-size="13" fill="#94a3b8">三维工作室</text>
+  <text x="215" y="27" text-anchor="end" class="mono" font-size="14" fill="#94a3b8">↗</text>
+</svg>

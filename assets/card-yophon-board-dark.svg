@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200" viewBox="0 0 420 200" role="img" aria-label="yophon-board：实时白板：多页、无限画布HTTP 写入，WebSocket 同步到每个人">
+  <style>.sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif } .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace }</style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1321"/><stop offset="1" stop-color="#111a2c"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#4ade80" stop-opacity="0.32"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4ade80" stop-opacity="0"/><stop offset="0.5" stop-color="#4ade80"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></linearGradient>
+    <clipPath id="frame"><rect width="420" height="200" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="420" height="200" fill="url(#bg)"/>
+    <circle cx="390" cy="10" r="190" fill="url(#glow)"/>
+    <rect x="40" y="0" width="340" height="2" fill="url(#edge)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="419" height="199" rx="16" fill="none" stroke="rgba(148,163,184,0.18)"/>
+  <rect x="28" y="28" width="44" height="44" rx="12" fill="#4ade80" fill-opacity="0.14" stroke="#4ade80" stroke-opacity="0.4"/>
+  <g transform="translate(50 50)"><path transform="translate(-12 -12)" d="M4 20l1-4.5L16 4.5 19.5 8 8.5 19zM14 7l3 3M3 21h18" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="88" y="58" class="mono" font-size="22" font-weight="700" fill="#e2e8f0">yophon-board</text>
+  <rect x="300" y="36" width="92" height="24" rx="12" fill="none" stroke="rgba(148,163,184,0.18)"/>
+  <text x="346.0" y="52" text-anchor="middle" class="sans" font-size="12" fill="#94a3b8">TypeScript</text>
+  <text x="28" y="106" class="sans" font-size="15" fill="#e2e8f0">实时白板：多页、无限画布</text>
+  <text x="28" y="130" class="sans" font-size="15" fill="#94a3b8">HTTP 写入，WebSocket 同步到每个人</text>
+  <rect x="28" y="150" width="42" height="24" rx="12" fill="#4ade80" fill-opacity="0.12" stroke="#4ade80" stroke-opacity="0.35"/><text x="48.8" y="166" text-anchor="middle" class="mono" font-size="12" fill="#4ade80">Bun</text><rect x="77.6" y="150" width="85" height="24" rx="12" fill="#4ade80" fill-opacity="0.12" stroke="#4ade80" stroke-opacity="0.35"/><text x="120.0" y="166" text-anchor="middle" class="mono" font-size="12" fill="#4ade80">WebSocket</text><rect x="170.4" y="150" width="63" height="24" rx="12" fill="#4ade80" fill-opacity="0.12" stroke="#4ade80" stroke-opacity="0.35"/><text x="202.0" y="166" text-anchor="middle" class="mono" font-size="12" fill="#4ade80">SQLite</text>
+</svg>

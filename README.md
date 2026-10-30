@@ -1,14 +1,13 @@
-做 agent 内核，也拿它做自己天天在用的东西：网盘、知识库、小工具，偶尔是网页游戏。
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/hero-dark.svg"><img alt="yophon：做 agent 内核，也拿它做自己天天在用的东西。" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/hero-light.svg" width="100%"></picture>
 
-#### 在做的
+<a href="https://github.com/yophon/tau"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-tau-dark.svg"><img alt="tau：不挑运行环境的 coding agent 内核" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-tau-light.svg" width="49%"></picture></a> <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-gopan-dark.svg"><img alt="gopan：自托管网盘，内置 tau 助手（未公开）" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-gopan-light.svg" width="49%"></picture>
 
-- [**tau**](https://github.com/yophon/tau) — 不挑运行环境的 coding agent 内核：纯 ECMAScript，文件、shell、HTTP 都由插件提供，终端、浏览器、App 里都能跑
-- **gopan** — 自托管网盘：Go 服务端，网页、安卓原生 App、Windows 桌面端，内置跑在 tau 上的助手，也能当 Remote MCP 给别的 agent 用（仓库暂未公开）
-- [**chewingdocs**](https://yophon.github.io/chewingdocs/) — 按主题整理的工程知识库，先建心智模型，再讲工具、架构与排障
-- [**yo-agent**](https://github.com/yophon/yo-agent) — tau 之前的那一版：TypeScript 写的通用 Agent Runtime，终端、RPC、MCP、ACP、浏览器共用一个内核
-- [**remote-mouse**](https://github.com/yophon/remote-mouse) — 把手机变成 Mac 的无线触控板和键盘（Flutter + Swift）
-- [**yophon-board**](https://github.com/yophon/yophon-board) — 实时白板，多页、无限画布，WebSocket 同步
+<a href="https://yophon.github.io/chewingdocs/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-chewingdocs-dark.svg"><img alt="chewingdocs：按主题整理的工程知识库" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-chewingdocs-light.svg" width="49%"></picture></a> <a href="https://github.com/yophon/yo-agent"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-yo-agent-dark.svg"><img alt="yo-agent：tau 之前的那一版通用 Agent Runtime" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-yo-agent-light.svg" width="49%"></picture></a>
 
-#### 别处
+<a href="https://github.com/yophon/remote-mouse"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-remote-mouse-dark.svg"><img alt="remote-mouse：把手机变成 Mac 的触控板和键盘" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-remote-mouse-light.svg" width="49%"></picture></a> <a href="https://github.com/yophon/yophon-board"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-yophon-board-dark.svg"><img alt="yophon-board：实时白板" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/card-yophon-board-light.svg" width="49%"></picture></a>
 
-[979687.xyz 三维工作室](https://979687.xyz) · [博客](https://blog.979687.xyz) · [白板](https://board.979687.xyz)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/output/profile-night-rainbow.svg"><img alt="GitHub 贡献的 3D 图" src="https://raw.githubusercontent.com/yophon/yophon/output/profile-green-animate.svg" width="100%"></picture>
+
+<p align="center">
+<a href="https://979687.xyz"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/link-studio-dark.svg"><img alt="979687.xyz 三维工作室" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/link-studio-light.svg" height="44"></picture></a> <a href="https://blog.979687.xyz"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/link-blog-dark.svg"><img alt="博客" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/link-blog-light.svg" height="44"></picture></a> <a href="https://board.979687.xyz"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yophon/yophon/main/assets/link-board-dark.svg"><img alt="白板" src="https://raw.githubusercontent.com/yophon/yophon/main/assets/link-board-light.svg" height="44"></picture></a>
+</p>

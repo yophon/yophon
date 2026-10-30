@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="yophon：做 agent 内核，也拿它做自己天天在用的东西">
+  <style>.sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif } .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace }
+@keyframes type { 0%, 3.57% { transform: translateX(0); animation-timing-function: steps(14, end) } 15.00%, 96% { transform: translateX(210px) } 97%, 100% { transform: translateX(0) } }
+@keyframes fade { 0%, 91% { opacity: 1 } 95%, 100% { opacity: 0 } }
+@keyframes l0 { 0%, 18.57% { opacity: 0 } 19.64%, 91% { opacity: 1 } 95%, 100% { opacity: 0 } }
+@keyframes l1 { 0%, 25.00% { opacity: 0 } 26.07%, 91% { opacity: 1 } 95%, 100% { opacity: 0 } }
+@keyframes l2 { 0%, 31.43% { opacity: 0 } 32.50%, 91% { opacity: 1 } 95%, 100% { opacity: 0 } }
+@keyframes done { 0%, 39.29% { opacity: 0 } 40.36%, 91% { opacity: 1 } 95%, 100% { opacity: 0 } }
+@keyframes next { 0%, 45.00% { opacity: 0 } 46.07%, 91% { opacity: 1 } 95%, 100% { opacity: 0 } }
+@keyframes blink { 50% { opacity: 0 } }
+@keyframes float { from { transform: translateY(0) } to { transform: translateY(-10px) } }
+.cover { transform: translateX(210px); animation: type 14s linear infinite } .first { animation: fade 14s linear infinite }
+.l0 { animation: l0 14s linear infinite }
+.l1 { animation: l1 14s linear infinite }
+.l2 { animation: l2 14s linear infinite }
+.done { animation: done 14s linear infinite } .next { animation: next 14s linear infinite }
+.cursor { animation: blink 1s steps(1) infinite }
+.f0 { animation: float 4s ease-in-out infinite alternate } .f1 { animation: float 5s ease-in-out -2s infinite alternate } .f2 { animation: float 6s ease-in-out -1s infinite alternate }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important } }</style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b14"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+    <radialGradient id="g1"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.32"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#06b6d4" stop-opacity="0.256"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+    <pattern id="iso" width="34.64" height="20" patternUnits="userSpaceOnUse"><path d="M0 0L34.64 20M0 20L34.64 0" stroke="rgba(148,163,184,0.08)" stroke-width="1"/></pattern>
+    <radialGradient id="fadeMask"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
+    <mask id="gridMask"><rect width="1200" height="400" fill="url(#fadeMask)"/></mask>
+    <clipPath id="frame"><rect width="1200" height="400" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#iso)" mask="url(#gridMask)"/>
+    <circle cx="180" cy="20" r="440" fill="url(#g1)"/>
+    <circle cx="1120" cy="420" r="400" fill="url(#g2)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="20" fill="none" stroke="rgba(148,163,184,0.18)"/>
+
+  <text x="72" y="116" class="mono" font-size="16" fill="#67e8f9">~/yophon <tspan fill="#94a3b8">❯ whoami</tspan></text>
+  <text x="68" y="200" class="sans" font-size="92" font-weight="800" letter-spacing="-3" fill="url(#name)">yophon</text>
+  <text x="72" y="254" class="sans" font-size="24" font-weight="600" fill="#e2e8f0">做 agent 内核，</text>
+  <text x="72" y="290" class="sans" font-size="24" font-weight="600" fill="#e2e8f0">也拿它做自己天天在用的东西。</text>
+  <text x="72" y="340" class="mono" font-size="14" fill="#94a3b8">tau · gopan · chewingdocs · 979687.xyz</text>
+
+  <g class="f0"><polygon points="566.0,66.0 588.5,79.0 566.0,92.0 543.5,79.0" fill="#c4b5fd"/><polygon points="543.5,79.0 566.0,92.0 566.0,118.0 543.5,105.0" fill="#8b5cf6"/><polygon points="566.0,92.0 588.5,79.0 588.5,105.0 566.0,118.0" fill="#6d28d9"/></g>
+  <g class="f1"><polygon points="1160.0,310.0 1177.3,320.0 1160.0,330.0 1142.7,320.0" fill="#a5f3fc"/><polygon points="1142.7,320.0 1160.0,330.0 1160.0,350.0 1142.7,340.0" fill="#22d3ee"/><polygon points="1160.0,330.0 1177.3,320.0 1177.3,340.0 1160.0,350.0" fill="#0e7490"/></g>
+  <g class="f2"><polygon points="548.0,309.0 559.3,315.5 548.0,322.0 536.7,315.5" fill="#fbcfe8"/><polygon points="536.7,315.5 548.0,322.0 548.0,335.0 536.7,328.5" fill="#f472b6"/><polygon points="548.0,322.0 559.3,315.5 559.3,328.5 548.0,335.0" fill="#be185d"/></g>
+
+  <rect x="600" y="64" width="540" height="276" rx="14" fill="#0b1220" stroke="rgba(148,163,184,0.22)"/>
+  <path d="M600 78a14 14 0 0 1 14-14h512a14 14 0 0 1 14 14v22H600z" fill="#111a2e"/>
+  <circle cx="622" cy="82" r="6" fill="#ff5f57"/><circle cx="642" cy="82" r="6" fill="#febc2e"/><circle cx="662" cy="82" r="6" fill="#28c840"/>
+  <text x="870" y="87" text-anchor="middle" class="mono" font-size="13" fill="#64748b">gopan 助手 · tau</text>
+
+  <g class="first">
+    <text x="624" y="134" class="mono" font-size="15" fill="#67e8f9">❯</text>
+    <text x="644" y="134" class="sans" font-size="15" fill="#e2e8f0">把上个月的发票整理到 /报销</text>
+    <rect class="cover" x="642" y="114" width="210" height="28" fill="#0b1220"/>
+  </g>
+  <g class="l0">
+    <text x="628" y="168" class="mono" font-size="13" fill="#a78bfa">●</text>
+    <text x="648" y="168" class="mono" font-size="14" fill="#a78bfa">search_files</text>
+    <text x="792" y="168" class="sans" font-size="14" fill="#e2e8f0">发票 2026-09</text>
+    <text x="1112" y="168" text-anchor="end" class="sans" font-size="14" fill="#64748b">12 项</text>
+  </g>
+  <g class="l1">
+    <text x="628" y="202" class="mono" font-size="13" fill="#a78bfa">●</text>
+    <text x="648" y="202" class="mono" font-size="14" fill="#a78bfa">move_nodes</text>
+    <text x="792" y="202" class="sans" font-size="14" fill="#e2e8f0">→ /报销/2026-09</text>
+    <text x="1112" y="202" text-anchor="end" class="sans" font-size="14" fill="#4ade80">✓</text>
+  </g>
+  <g class="l2">
+    <text x="628" y="236" class="mono" font-size="13" fill="#a78bfa">●</text>
+    <text x="648" y="236" class="mono" font-size="14" fill="#a78bfa">memory_write</text>
+    <text x="792" y="236" class="sans" font-size="14" fill="#e2e8f0">报销单按月分文件夹</text>
+    <text x="1112" y="236" text-anchor="end" class="sans" font-size="14" fill="#4ade80">✓</text>
+  </g>
+  <g class="done"><text x="624" y="280" class="sans" font-size="15" fill="#e2e8f0">整理好了：12 张发票在 <tspan fill="#67e8f9">/报销/2026-09</tspan></text></g>
+  <g class="next">
+    <text x="624" y="316" class="mono" font-size="15" fill="#67e8f9">❯</text>
+    <rect class="cursor" x="644" y="302" width="9" height="18" fill="#e2e8f0"/>
+  </g>
+</svg>
