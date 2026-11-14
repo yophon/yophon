@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="32" viewBox="0 0 122 32" role="img" aria-label="白板 board">
+  <style>.sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif } .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace }</style>
+  <text x="0" y="21" class="mono" font-size="13" fill="#f0f6fc">board</text>
+  <text x="47.0" y="21" class="sans" font-size="13" fill="#656c76">白板</text>
+  <text x="94.0" y="21" text-anchor="end" class="sans" font-size="13" fill="#9198a1">↗</text>
+</svg>
